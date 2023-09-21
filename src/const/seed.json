@@ -1,0 +1,2672 @@
+[
+  {
+    "insurance": [
+      {
+        "id": "9e70b9e6-85a8-4b8c-a714-bc82695e59e9",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "P123456",
+        "coverage_start_date": "2023-09-21T01:24:46.092Z",
+        "coverage_end_date": "2023-09-20T10:12:17.245Z",
+        "created_at": "2023-09-20T06:54:43.855Z",
+        "updated_at": "2023-09-21T04:16:38.059Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "f3f0fbf0-59e0-4fc7-9d21-5233a1a15e55",
+        "insurance_provider": "XYZ Insurance",
+        "policy_number": "P987654",
+        "coverage_start_date": "2023-09-20T22:50:50.853Z",
+        "coverage_end_date": "2023-09-20T14:49:00.755Z",
+        "created_at": "2023-09-20T16:01:28.350Z",
+        "updated_at": "2023-09-20T07:00:12.822Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "0282443e-57dc-4904-8cbb-9c28bb7e5f2f",
+        "insurance_provider": "123 Insurance",
+        "policy_number": "P456789",
+        "coverage_start_date": "2023-09-20T16:17:43.267Z",
+        "coverage_end_date": "2023-09-20T08:40:55.108Z",
+        "created_at": "2023-09-20T07:18:20.202Z",
+        "updated_at": "2023-09-20T13:38:48.544Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "0b2fbc2f-0a91-4b09-9577-c4d0ba3a1c62",
+        "insurance_provider": "City Insurance",
+        "policy_number": "P321654",
+        "coverage_start_date": "2023-09-20T14:45:11.188Z",
+        "coverage_end_date": "2023-09-20T16:54:19.905Z",
+        "created_at": "2023-09-20T08:57:27.939Z",
+        "updated_at": "2023-09-20T10:49:38.666Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "e30fe2db-ca49-49dc-820f-99af0e565b5d",
+        "insurance_provider": "Sunshine Insurance",
+        "policy_number": "P654321",
+        "coverage_start_date": "2023-09-20T06:29:05.123Z",
+        "coverage_end_date": "2023-09-20T12:27:25.546Z",
+        "created_at": "2023-09-20T14:03:13.067Z",
+        "updated_at": "2023-09-20T18:16:17.675Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "1298657e-9edf-4b59-9a39-4d378f063323",
+        "name": "Dr. John Smith",
+        "specialty": "Cardiology",
+        "license_number": "L123456",
+        "created_at": "2023-09-20T17:08:59.781Z",
+        "updated_at": "2023-09-21T02:18:50.671Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7748dfdd-bca2-46c5-800d-977f12321604",
+        "name": "Dr. Sarah Johnson",
+        "specialty": "Dermatology",
+        "license_number": "L987654",
+        "created_at": "2023-09-20T16:49:02.305Z",
+        "updated_at": "2023-09-20T14:27:12.699Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "111aec01-6583-4d1d-bd34-d30a7d38aa63",
+        "name": "Dr. Michael Brown",
+        "specialty": "Pediatrics",
+        "license_number": "L456789",
+        "created_at": "2023-09-20T12:25:35.053Z",
+        "updated_at": "2023-09-21T01:16:34.719Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38f5b6c8-e62e-4275-a275-5c27eaee92e8",
+        "name": "Dr. Jane Wilson",
+        "specialty": "Orthopedics",
+        "license_number": "L321654",
+        "created_at": "2023-09-20T15:19:53.848Z",
+        "updated_at": "2023-09-20T17:07:36.638Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82c08012-3fcf-4000-9068-a8c32a58085a",
+        "name": "Dr. Robert Davis",
+        "specialty": "Gynecology",
+        "license_number": "L654321",
+        "created_at": "2023-09-21T04:20:23.170Z",
+        "updated_at": "2023-09-20T15:26:27.679Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "3421c3c5-2630-4f10-9f2f-6074ba7bf73f",
+        "date_time": "2023-09-20T06:02:54.403Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-20T16:16:41.437Z",
+        "updated_at": "2023-09-20T23:26:53.966Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "1298657e-9edf-4b59-9a39-4d378f063323",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "60045a9e-0da5-4e8c-9b2a-0d2f2b987c5c",
+        "date_time": "2023-09-20T23:54:21.614Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T22:18:33.965Z",
+        "updated_at": "2023-09-20T12:22:19.941Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "82c08012-3fcf-4000-9068-a8c32a58085a",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "c85205a4-335c-4038-80e5-fa7a64b846d5",
+        "date_time": "2023-09-21T03:13:12.893Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T03:14:01.965Z",
+        "updated_at": "2023-09-21T03:09:48.636Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "82c08012-3fcf-4000-9068-a8c32a58085a",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "41470a33-f5e7-4198-b4e0-36dabf281df6",
+        "date_time": "2023-09-21T01:01:07.717Z",
+        "status": "Rescheduled",
+        "created_at": "2023-09-20T20:08:58.846Z",
+        "updated_at": "2023-09-21T03:29:15.685Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "111aec01-6583-4d1d-bd34-d30a7d38aa63",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "099d77a1-e5de-4976-a039-e30aa13cb01f",
+        "date_time": "2023-09-20T06:29:28.459Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T13:45:43.567Z",
+        "updated_at": "2023-09-20T15:23:19.244Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "7748dfdd-bca2-46c5-800d-977f12321604",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "d60d99a5-b3a9-4ac8-9062-88a440f53237",
+        "diagnosis": "Hypertension",
+        "treatment_plan": "Medication and lifestyle changes",
+        "medical_history": "No significant medical history",
+        "created_at": "2023-09-20T11:40:15.438Z",
+        "updated_at": "2023-09-21T04:41:39.304Z",
+        "appointment_id": "099d77a1-e5de-4976-a039-e30aa13cb01f",
+        "doctor_id": "7748dfdd-bca2-46c5-800d-977f12321604",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "e14ead94-90bc-4280-a79e-86550e23cc95",
+        "diagnosis": "Diabetes",
+        "treatment_plan": "Physical therapy and exercises",
+        "medical_history": "Allergies to certain medications",
+        "created_at": "2023-09-20T19:58:29.041Z",
+        "updated_at": "2023-09-21T00:17:47.930Z",
+        "appointment_id": "41470a33-f5e7-4198-b4e0-36dabf281df6",
+        "doctor_id": "111aec01-6583-4d1d-bd34-d30a7d38aa63",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "852cdfe4-2336-417c-9fb5-fded301a8ebb",
+        "diagnosis": "Migraine",
+        "treatment_plan": "Surgery and rehabilitation",
+        "medical_history": "Previous surgeries or procedures",
+        "created_at": "2023-09-20T07:20:12.557Z",
+        "updated_at": "2023-09-20T15:59:05.179Z",
+        "appointment_id": "41470a33-f5e7-4198-b4e0-36dabf281df6",
+        "doctor_id": "82c08012-3fcf-4000-9068-a8c32a58085a",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "54461b6d-a7e3-4ea3-a857-78038b695af3",
+        "diagnosis": "Asthma",
+        "treatment_plan": "Counseling and support",
+        "medical_history": "Family history of chronic diseases",
+        "created_at": "2023-09-21T00:11:07.486Z",
+        "updated_at": "2023-09-20T06:43:10.741Z",
+        "appointment_id": "60045a9e-0da5-4e8c-9b2a-0d2f2b987c5c",
+        "doctor_id": "1298657e-9edf-4b59-9a39-4d378f063323",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "4d34be9d-c87d-4358-9c5e-e3bd2d718666",
+        "diagnosis": "Depression",
+        "treatment_plan": "Alternative medicine and holistic approach",
+        "medical_history": "Regular exercise and healthy lifestyle",
+        "created_at": "2023-09-21T02:24:40.322Z",
+        "updated_at": "2023-09-20T23:49:29.010Z",
+        "appointment_id": "60045a9e-0da5-4e8c-9b2a-0d2f2b987c5c",
+        "doctor_id": "82c08012-3fcf-4000-9068-a8c32a58085a",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0732b551-ccb6-4e61-b107-407489dd6ea8",
+        "email": "Jerad26@gmail.com",
+        "firstName": "Christ",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1189.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "982d1fed-0b98-4aa4-ad9f-1ab19b74a97b",
+        "email": "Cruz37@yahoo.com",
+        "firstName": "Rose",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63851408",
+        "tenantId": null
+      },
+      {
+        "reference": "045f3c18-ebdb-4bfc-b65d-87699dfbedaa",
+        "email": "Tony_Hilll@yahoo.com",
+        "firstName": "Ally",
+        "lastName": "Kertzmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1000.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "001efb95-2336-4cca-ab3a-6bdac918c69d",
+        "email": "Mollie.Ullrich53@gmail.com",
+        "firstName": "Tina",
+        "lastName": "Blanda",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28776397",
+        "tenantId": null
+      },
+      {
+        "reference": "0bcaab62-857b-407a-a768-60ba875fd8b6",
+        "email": "Elnora_Hammes@gmail.com",
+        "firstName": "Jaylon",
+        "lastName": "Kessler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93328459",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance": [
+      {
+        "id": "6707560d-d83c-4fd4-b454-73226cfffc72",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "P123456",
+        "coverage_start_date": "2023-09-20T09:52:56.176Z",
+        "coverage_end_date": "2023-09-20T13:55:54.539Z",
+        "created_at": "2023-09-20T11:31:02.345Z",
+        "updated_at": "2023-09-21T02:59:10.011Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "3c9b7ff4-2763-4199-af6d-ab62e799bed1",
+        "insurance_provider": "XYZ Insurance",
+        "policy_number": "P987654",
+        "coverage_start_date": "2023-09-20T08:05:46.593Z",
+        "coverage_end_date": "2023-09-20T06:08:25.098Z",
+        "created_at": "2023-09-20T19:03:17.345Z",
+        "updated_at": "2023-09-20T17:21:16.408Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "ef63dcc8-a967-4715-b7b1-2bbede1633a8",
+        "insurance_provider": "123 Insurance",
+        "policy_number": "P456789",
+        "coverage_start_date": "2023-09-20T08:04:45.233Z",
+        "coverage_end_date": "2023-09-20T08:12:20.862Z",
+        "created_at": "2023-09-21T03:51:28.569Z",
+        "updated_at": "2023-09-20T08:38:31.405Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "3fee48b3-6677-4c03-b48c-333151ec51fa",
+        "insurance_provider": "789 Insurance",
+        "policy_number": "P321654",
+        "coverage_start_date": "2023-09-20T11:37:01.662Z",
+        "coverage_end_date": "2023-09-20T09:11:45.434Z",
+        "created_at": "2023-09-20T13:49:15.353Z",
+        "updated_at": "2023-09-20T14:43:16.075Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "ef4ee7df-cbe2-4b96-8410-d94725f3e2b3",
+        "insurance_provider": "DEF Insurance",
+        "policy_number": "P654321",
+        "coverage_start_date": "2023-09-20T08:33:43.947Z",
+        "coverage_end_date": "2023-09-20T17:56:00.918Z",
+        "created_at": "2023-09-21T04:17:42.402Z",
+        "updated_at": "2023-09-21T03:25:32.500Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "2f435dac-5442-4b2f-af48-88fda0d28c98",
+        "name": "Dr. John Smith",
+        "specialty": "Family Medicine",
+        "license_number": "12345",
+        "created_at": "2023-09-20T08:24:07.719Z",
+        "updated_at": "2023-09-20T18:13:50.549Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "804e78c1-28a3-4a09-87e5-14b7b9a8f9da",
+        "name": "Dr. Emily Johnson",
+        "specialty": "Orthopedics",
+        "license_number": "67890",
+        "created_at": "2023-09-20T07:28:02.708Z",
+        "updated_at": "2023-09-20T06:33:47.616Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0de1d041-e0cf-43bd-93f5-257062f14bf6",
+        "name": "Dr. Michael Davis",
+        "specialty": "Pediatrics",
+        "license_number": "54321",
+        "created_at": "2023-09-20T10:37:04.771Z",
+        "updated_at": "2023-09-20T08:20:44.409Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19c158ff-f9fb-4ab4-a209-ca32f14c9313",
+        "name": "Dr. Sarah Wilson",
+        "specialty": "Dermatology",
+        "license_number": "09876",
+        "created_at": "2023-09-20T18:39:26.941Z",
+        "updated_at": "2023-09-20T23:45:50.431Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1bffbfc7-948a-417f-a240-a08753dc7598",
+        "name": "Dr. David Brown",
+        "specialty": "Dentistry",
+        "license_number": "13579",
+        "created_at": "2023-09-20T18:14:14.716Z",
+        "updated_at": "2023-09-21T01:27:09.847Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "a816379c-c5c2-4980-a427-45eacd138781",
+        "date_time": "2023-09-20T19:35:56.291Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-20T05:26:32.213Z",
+        "updated_at": "2023-09-20T17:00:20.275Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "0de1d041-e0cf-43bd-93f5-257062f14bf6",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "bbdd225f-10bf-42e7-96cd-b729c858067a",
+        "date_time": "2023-09-20T19:33:40.691Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T16:35:19.067Z",
+        "updated_at": "2023-09-20T11:19:08.213Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "804e78c1-28a3-4a09-87e5-14b7b9a8f9da",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "45f3d7b5-22bf-40e4-aa63-0d8855cb3f17",
+        "date_time": "2023-09-20T08:48:32.688Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T11:45:55.374Z",
+        "updated_at": "2023-09-20T18:26:39.291Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "804e78c1-28a3-4a09-87e5-14b7b9a8f9da",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "08c1e0bb-4970-43ec-95d5-fa9df5692994",
+        "date_time": "2023-09-20T06:01:35.910Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T12:32:35.457Z",
+        "updated_at": "2023-09-20T09:16:45.643Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "19c158ff-f9fb-4ab4-a209-ca32f14c9313",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "cd37a11d-16fb-437e-93b6-8036c0beb0ea",
+        "date_time": "2023-09-20T16:51:47.044Z",
+        "status": "Rescheduled",
+        "created_at": "2023-09-20T19:42:20.433Z",
+        "updated_at": "2023-09-21T04:19:50.134Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "2f435dac-5442-4b2f-af48-88fda0d28c98",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "b57b2a85-bc7b-4b13-a875-9e61340b4afd",
+        "diagnosis": "Common Cold",
+        "treatment_plan": "Rest and Fluids",
+        "medical_history": "No significant medical history",
+        "created_at": "2023-09-20T19:06:03.949Z",
+        "updated_at": "2023-09-21T01:11:08.514Z",
+        "appointment_id": "bbdd225f-10bf-42e7-96cd-b729c858067a",
+        "doctor_id": "19c158ff-f9fb-4ab4-a209-ca32f14c9313",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "f1afb6e2-0189-4380-8f30-c3484a2ed082",
+        "diagnosis": "Sprained Ankle",
+        "treatment_plan": "Physical Therapy",
+        "medical_history": "Previous sports injuries",
+        "created_at": "2023-09-20T14:05:25.965Z",
+        "updated_at": "2023-09-21T02:27:52.946Z",
+        "appointment_id": "cd37a11d-16fb-437e-93b6-8036c0beb0ea",
+        "doctor_id": "19c158ff-f9fb-4ab4-a209-ca32f14c9313",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "fd240006-8d75-4dea-848c-1c97715bcc8c",
+        "diagnosis": "Strep Throat",
+        "treatment_plan": "Antibiotics",
+        "medical_history": "Allergic to penicillin",
+        "created_at": "2023-09-21T00:11:12.562Z",
+        "updated_at": "2023-09-20T11:44:27.772Z",
+        "appointment_id": "08c1e0bb-4970-43ec-95d5-fa9df5692994",
+        "doctor_id": "1bffbfc7-948a-417f-a240-a08753dc7598",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "2e2d6164-0be7-4f04-b705-283937b188b3",
+        "diagnosis": "Acne Vulgaris",
+        "treatment_plan": "Topical Cream",
+        "medical_history": "Sensitive skin",
+        "created_at": "2023-09-20T14:33:42.696Z",
+        "updated_at": "2023-09-21T01:45:59.720Z",
+        "appointment_id": "45f3d7b5-22bf-40e4-aa63-0d8855cb3f17",
+        "doctor_id": "804e78c1-28a3-4a09-87e5-14b7b9a8f9da",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "1e4c445d-3333-4770-9a7f-8d8b1b9fa30c",
+        "diagnosis": "Cavity",
+        "treatment_plan": "Filling",
+        "medical_history": "Regular dental check-ups",
+        "created_at": "2023-09-21T01:46:38.740Z",
+        "updated_at": "2023-09-21T02:14:46.040Z",
+        "appointment_id": "45f3d7b5-22bf-40e4-aa63-0d8855cb3f17",
+        "doctor_id": "804e78c1-28a3-4a09-87e5-14b7b9a8f9da",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c183efa1-5729-4c7f-88ae-d4907eea9886",
+        "email": "Davion_Goodwin@yahoo.com",
+        "firstName": "Nannie",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69887873",
+        "tenantId": null
+      },
+      {
+        "reference": "59d680c4-84df-4761-8e11-b9415f16f317",
+        "email": "Lilliana71@hotmail.com",
+        "firstName": "Dixie",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/768.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ae25bdd5-6645-4d44-8c36-e43d7a0fa38a",
+        "email": "Lillian.Jacobi@gmail.com",
+        "firstName": "Cordia",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/428.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f3906416-9a6b-4d37-bb5f-066c0298c372",
+        "email": "Lera.Shanahan@yahoo.com",
+        "firstName": "Monserrate",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67293519",
+        "tenantId": null
+      },
+      {
+        "reference": "0dc8149a-a489-4c24-b73e-03af49365455",
+        "email": "Reinhold_Dach11@hotmail.com",
+        "firstName": "Bettie",
+        "lastName": "Purdy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1014.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance": [
+      {
+        "id": "a156a3af-83b6-49f7-85d5-0a8a4e6322c5",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "123456789",
+        "coverage_start_date": "2023-09-20T06:15:32.299Z",
+        "coverage_end_date": "2023-09-20T19:35:50.717Z",
+        "created_at": "2023-09-20T06:58:58.009Z",
+        "updated_at": "2023-09-20T05:40:25.998Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "861dbe88-c560-412c-a957-33ad42b75dcc",
+        "insurance_provider": "XYZ Health",
+        "policy_number": "987654321",
+        "coverage_start_date": "2023-09-20T14:09:14.939Z",
+        "coverage_end_date": "2023-09-20T14:20:29.451Z",
+        "created_at": "2023-09-20T21:10:23.209Z",
+        "updated_at": "2023-09-20T20:52:28.472Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "cd9dc276-1a2d-4a9b-badc-1e197c111cd1",
+        "insurance_provider": "CityCare",
+        "policy_number": "567890123",
+        "coverage_start_date": "2023-09-20T07:09:22.790Z",
+        "coverage_end_date": "2023-09-20T11:11:21.692Z",
+        "created_at": "2023-09-20T18:00:21.682Z",
+        "updated_at": "2023-09-20T21:08:37.437Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "04aa1246-6c8d-4d8a-9063-f5c88cf4b512",
+        "insurance_provider": "Sunshine Insurance",
+        "policy_number": "321098765",
+        "coverage_start_date": "2023-09-21T04:16:05.179Z",
+        "coverage_end_date": "2023-09-21T03:36:49.000Z",
+        "created_at": "2023-09-20T21:56:22.015Z",
+        "updated_at": "2023-09-20T22:30:02.534Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "361b529e-ac6f-4b26-b095-13d2ca5431cc",
+        "insurance_provider": "EverSafe",
+        "policy_number": "789012345",
+        "coverage_start_date": "2023-09-20T19:42:05.497Z",
+        "coverage_end_date": "2023-09-20T08:17:05.709Z",
+        "created_at": "2023-09-20T09:07:35.805Z",
+        "updated_at": "2023-09-20T07:31:59.096Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "343f9953-aa3d-4245-a320-f41b5fbc1101",
+        "name": "Dr. John Smith",
+        "specialty": "Cardiology",
+        "license_number": "12345",
+        "created_at": "2023-09-20T12:24:45.752Z",
+        "updated_at": "2023-09-20T06:44:06.352Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d893346b-91c0-4582-8b40-47ae8f70cba6",
+        "name": "Dr. Jane Doe",
+        "specialty": "Pediatrics",
+        "license_number": "54321",
+        "created_at": "2023-09-20T20:19:33.865Z",
+        "updated_at": "2023-09-20T13:17:47.672Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5479cbd-7f50-4a19-ad8c-1c869f2eb5ba",
+        "name": "Dr. Michael Brown",
+        "specialty": "Dermatology",
+        "license_number": "67890",
+        "created_at": "2023-09-20T16:17:29.025Z",
+        "updated_at": "2023-09-20T11:58:59.207Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76ea4434-2f02-4c6a-bf3d-e0446245a92a",
+        "name": "Dr. Sarah Jones",
+        "specialty": "Orthopedics",
+        "license_number": "09876",
+        "created_at": "2023-09-21T01:49:12.134Z",
+        "updated_at": "2023-09-21T00:18:29.927Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d5874ca-30ba-4dfd-8028-8fcdbc18c105",
+        "name": "Dr. Robert Wilson",
+        "specialty": "Gynecology",
+        "license_number": "54321",
+        "created_at": "2023-09-20T06:32:17.080Z",
+        "updated_at": "2023-09-21T04:16:25.109Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "01b4313c-c922-44a7-9854-7fa181dcc4b9",
+        "date_time": "2023-09-20T17:54:51.148Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-20T16:09:10.044Z",
+        "updated_at": "2023-09-20T23:45:40.398Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "d893346b-91c0-4582-8b40-47ae8f70cba6",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "d0a21074-b8b3-440f-82b6-d7826630c54e",
+        "date_time": "2023-09-20T04:57:37.978Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T08:40:43.738Z",
+        "updated_at": "2023-09-20T19:16:50.852Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "343f9953-aa3d-4245-a320-f41b5fbc1101",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "4ebe5d3f-99d3-4dae-97cf-8c75c11fb5c8",
+        "date_time": "2023-09-20T23:13:00.655Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T09:55:38.174Z",
+        "updated_at": "2023-09-21T01:36:53.434Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "4d5874ca-30ba-4dfd-8028-8fcdbc18c105",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "3dc13529-4ced-433c-98a1-e53c5c603b1d",
+        "date_time": "2023-09-21T02:28:31.890Z",
+        "status": "Rescheduled",
+        "created_at": "2023-09-20T11:23:54.107Z",
+        "updated_at": "2023-09-20T21:06:06.891Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "76ea4434-2f02-4c6a-bf3d-e0446245a92a",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "5caa2b3c-6eb8-4882-b399-e212b7e3cf0d",
+        "date_time": "2023-09-20T20:00:28.602Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T11:22:53.121Z",
+        "updated_at": "2023-09-21T01:47:05.890Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "d893346b-91c0-4582-8b40-47ae8f70cba6",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "2a36ce6a-e5f7-494b-9c0b-41841435594e",
+        "diagnosis": "Hypertension",
+        "treatment_plan": "Prescription medication and lifestyle changes",
+        "medical_history": "No significant medical history",
+        "created_at": "2023-09-21T03:09:53.918Z",
+        "updated_at": "2023-09-20T07:09:18.326Z",
+        "appointment_id": "3dc13529-4ced-433c-98a1-e53c5c603b1d",
+        "doctor_id": "343f9953-aa3d-4245-a320-f41b5fbc1101",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "41680c45-381f-4eeb-973c-a53a12b62532",
+        "diagnosis": "Diabetes",
+        "treatment_plan": "Physical therapy and pain management",
+        "medical_history": "Allergies to penicillin",
+        "created_at": "2023-09-20T09:25:09.802Z",
+        "updated_at": "2023-09-20T12:44:39.797Z",
+        "appointment_id": "4ebe5d3f-99d3-4dae-97cf-8c75c11fb5c8",
+        "doctor_id": "76ea4434-2f02-4c6a-bf3d-e0446245a92a",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "3de0335f-7748-43d7-8114-c7e4ae57e122",
+        "diagnosis": "Bronchitis",
+        "treatment_plan": "Surgery and rehabilitation",
+        "medical_history": "Previous surgery for appendicitis",
+        "created_at": "2023-09-21T04:53:35.616Z",
+        "updated_at": "2023-09-20T05:54:36.812Z",
+        "appointment_id": "01b4313c-c922-44a7-9854-7fa181dcc4b9",
+        "doctor_id": "343f9953-aa3d-4245-a320-f41b5fbc1101",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "30725e82-c349-4266-abaf-93e83cfad7e4",
+        "diagnosis": "Arthritis",
+        "treatment_plan": "Counseling and stress management",
+        "medical_history": "Family history of heart disease",
+        "created_at": "2023-09-20T19:33:58.478Z",
+        "updated_at": "2023-09-20T14:05:27.757Z",
+        "appointment_id": "4ebe5d3f-99d3-4dae-97cf-8c75c11fb5c8",
+        "doctor_id": "76ea4434-2f02-4c6a-bf3d-e0446245a92a",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "1f7cfa96-9cf8-4333-9f65-4175f9de4a27",
+        "diagnosis": "Migraine",
+        "treatment_plan": "Dietary changes and exercise",
+        "medical_history": "Chronic back pain",
+        "created_at": "2023-09-20T07:06:58.030Z",
+        "updated_at": "2023-09-20T13:25:34.040Z",
+        "appointment_id": "d0a21074-b8b3-440f-82b6-d7826630c54e",
+        "doctor_id": "f5479cbd-7f50-4a19-ad8c-1c869f2eb5ba",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "545e64b3-2e51-44d4-85d3-18f01639e7f9",
+        "email": "Jamir15@gmail.com",
+        "firstName": "Felix",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10221454",
+        "tenantId": null
+      },
+      {
+        "reference": "de96d47d-37ba-40f7-a356-ab6b7091be0e",
+        "email": "Tamia80@yahoo.com",
+        "firstName": "Horacio",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/239.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "be7a1913-1953-4757-9e5e-8ed2eb722fff",
+        "email": "Ebba4@yahoo.com",
+        "firstName": "Jamar",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1105.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b01c9e10-f3f9-49f4-bf44-1389ed046fb6",
+        "email": "Janiya35@yahoo.com",
+        "firstName": "Connor",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/903.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "49c3080a-5da3-4de3-bcc3-5d2d8d1a77ab",
+        "email": "Hailie_Wiza@hotmail.com",
+        "firstName": "Davion",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10417272",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance": [
+      {
+        "id": "d2de61b9-4580-4154-9a5a-be099fe1e635",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "P12345",
+        "coverage_start_date": "2023-09-20T13:06:12.841Z",
+        "coverage_end_date": "2023-09-20T13:02:23.965Z",
+        "created_at": "2023-09-20T15:59:32.613Z",
+        "updated_at": "2023-09-20T05:07:40.395Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "e29e3af4-49a0-43bc-98fc-ac33e3d2eeb9",
+        "insurance_provider": "XYZ Insurance",
+        "policy_number": "P67890",
+        "coverage_start_date": "2023-09-20T17:25:07.403Z",
+        "coverage_end_date": "2023-09-20T10:11:03.826Z",
+        "created_at": "2023-09-20T20:15:55.264Z",
+        "updated_at": "2023-09-20T11:39:20.849Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "c0c4091a-f0c3-4b8e-90cd-ba315fdee7a9",
+        "insurance_provider": "123 Insurance",
+        "policy_number": "P54321",
+        "coverage_start_date": "2023-09-20T05:18:20.175Z",
+        "coverage_end_date": "2023-09-20T16:10:10.647Z",
+        "created_at": "2023-09-21T03:57:29.394Z",
+        "updated_at": "2023-09-20T12:02:47.895Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "dbd3e3ef-f696-449c-9744-5418423ada74",
+        "insurance_provider": "Healthcare Insurance",
+        "policy_number": "P09876",
+        "coverage_start_date": "2023-09-20T20:50:53.249Z",
+        "coverage_end_date": "2023-09-20T23:07:23.414Z",
+        "created_at": "2023-09-21T00:32:39.065Z",
+        "updated_at": "2023-09-20T21:20:57.476Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "03c8c53c-acbd-4e1d-b4b3-0ff706bed3fa",
+        "insurance_provider": "Global Insurance",
+        "policy_number": "P24680",
+        "coverage_start_date": "2023-09-20T06:32:14.702Z",
+        "coverage_end_date": "2023-09-20T14:26:43.186Z",
+        "created_at": "2023-09-21T03:57:44.013Z",
+        "updated_at": "2023-09-21T03:39:04.021Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "be263097-a0ce-42c3-b626-f0d6b315ee4b",
+        "name": "Dr. John Smith",
+        "specialty": "Cardiology",
+        "license_number": "L12345",
+        "created_at": "2023-09-20T05:47:27.606Z",
+        "updated_at": "2023-09-21T01:40:55.855Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4de70ad2-be48-4105-9dfd-1f47a800a576",
+        "name": "Dr. Sarah Johnson",
+        "specialty": "Dermatology",
+        "license_number": "L67890",
+        "created_at": "2023-09-20T13:21:37.961Z",
+        "updated_at": "2023-09-20T16:00:55.528Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f84d0c93-035e-4f98-b001-589f0e66a16b",
+        "name": "Dr. Michael Brown",
+        "specialty": "Gastroenterology",
+        "license_number": "L54321",
+        "created_at": "2023-09-20T14:39:10.130Z",
+        "updated_at": "2023-09-20T07:29:15.271Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a296a019-7da5-4296-b9fa-eb29f5e81990",
+        "name": "Dr. Emily Davis",
+        "specialty": "Neurology",
+        "license_number": "L09876",
+        "created_at": "2023-09-20T17:45:13.206Z",
+        "updated_at": "2023-09-20T04:58:17.318Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4769baea-0264-4e10-80b4-1cb7149bad50",
+        "name": "Dr. Robert Wilson",
+        "specialty": "Ophthalmology",
+        "license_number": "L24680",
+        "created_at": "2023-09-20T10:40:25.179Z",
+        "updated_at": "2023-09-20T10:53:43.247Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "b039d3e1-995f-4c17-be46-01019270b9b2",
+        "date_time": "2023-09-20T13:34:26.019Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-20T20:56:51.572Z",
+        "updated_at": "2023-09-21T02:32:40.872Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "f84d0c93-035e-4f98-b001-589f0e66a16b",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "d011f7ac-ccc8-4503-bc05-8ec07bb46d37",
+        "date_time": "2023-09-21T02:05:04.677Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T06:40:47.154Z",
+        "updated_at": "2023-09-20T08:24:24.483Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "be263097-a0ce-42c3-b626-f0d6b315ee4b",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "5da94fb4-106f-4b41-accc-901d10d64bd3",
+        "date_time": "2023-09-20T13:20:50.606Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T23:54:13.837Z",
+        "updated_at": "2023-09-20T23:40:25.847Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "f84d0c93-035e-4f98-b001-589f0e66a16b",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "9ddc4654-a60c-4a64-9344-01aed5468fe5",
+        "date_time": "2023-09-20T19:28:43.579Z",
+        "status": "Rescheduled",
+        "created_at": "2023-09-20T06:27:34.033Z",
+        "updated_at": "2023-09-20T23:16:04.790Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "be263097-a0ce-42c3-b626-f0d6b315ee4b",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "b2dd69e5-e2bf-44ef-9ed5-265c4f5caa48",
+        "date_time": "2023-09-20T10:20:04.127Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T14:38:57.346Z",
+        "updated_at": "2023-09-20T22:08:14.913Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "4de70ad2-be48-4105-9dfd-1f47a800a576",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "ef86e15f-18e3-42b2-804a-0a2c4d2df33c",
+        "diagnosis": "Hypertension",
+        "treatment_plan": "Prescription medication",
+        "medical_history": "No known allergies",
+        "created_at": "2023-09-20T18:07:10.786Z",
+        "updated_at": "2023-09-20T23:35:24.497Z",
+        "appointment_id": "9ddc4654-a60c-4a64-9344-01aed5468fe5",
+        "doctor_id": "be263097-a0ce-42c3-b626-f0d6b315ee4b",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "e38a3f0e-0518-4a6b-944f-ad95a3b0698a",
+        "diagnosis": "Diabetes",
+        "treatment_plan": "Physical therapy",
+        "medical_history": "Previous surgery for appendicitis",
+        "created_at": "2023-09-21T01:30:26.374Z",
+        "updated_at": "2023-09-20T12:10:41.624Z",
+        "appointment_id": "d011f7ac-ccc8-4503-bc05-8ec07bb46d37",
+        "doctor_id": "4769baea-0264-4e10-80b4-1cb7149bad50",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "1db7b1fb-0708-4fd7-b0df-c9ab8523f5be",
+        "diagnosis": "Asthma",
+        "treatment_plan": "Surgery",
+        "medical_history": "Family history of heart disease",
+        "created_at": "2023-09-20T11:54:57.476Z",
+        "updated_at": "2023-09-21T04:44:44.726Z",
+        "appointment_id": "d011f7ac-ccc8-4503-bc05-8ec07bb46d37",
+        "doctor_id": "f84d0c93-035e-4f98-b001-589f0e66a16b",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "c8e4b111-c9b2-43bf-bdd3-070c63117df6",
+        "diagnosis": "Depression",
+        "treatment_plan": "Counseling",
+        "medical_history": "Chronic back pain",
+        "created_at": "2023-09-21T04:12:38.771Z",
+        "updated_at": "2023-09-21T02:48:49.491Z",
+        "appointment_id": "b2dd69e5-e2bf-44ef-9ed5-265c4f5caa48",
+        "doctor_id": "a296a019-7da5-4296-b9fa-eb29f5e81990",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "481bfe1e-616a-4298-bdf2-5d6b68c074bf",
+        "diagnosis": "Migraine",
+        "treatment_plan": "Lifestyle changes",
+        "medical_history": "Seasonal allergies",
+        "created_at": "2023-09-20T04:57:43.080Z",
+        "updated_at": "2023-09-20T08:36:22.234Z",
+        "appointment_id": "9ddc4654-a60c-4a64-9344-01aed5468fe5",
+        "doctor_id": "4de70ad2-be48-4105-9dfd-1f47a800a576",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3801757f-f869-47f6-b518-716dcb5ef175",
+        "email": "Anika.Hagenes@gmail.com",
+        "firstName": "Sharon",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/850.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f3ab2f45-3145-43a5-94e0-cc89b5e3415e",
+        "email": "Kenneth.Collins85@hotmail.com",
+        "firstName": "Johan",
+        "lastName": "Dibbert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66453750",
+        "tenantId": null
+      },
+      {
+        "reference": "4a2234ea-807d-471f-9bdb-b9223d76ac74",
+        "email": "Viviane_Mosciski22@hotmail.com",
+        "firstName": "Mohamed",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1170.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7fc24642-dd1d-4224-9d0d-d390d000ae68",
+        "email": "Lawson_Reilly@hotmail.com",
+        "firstName": "Eddie",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/90.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f8802df9-22df-4dfa-9ea5-13fba5d80b25",
+        "email": "Toni_Mills@gmail.com",
+        "firstName": "Schuyler",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/456.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance": [
+      {
+        "id": "c6ef3dcd-1e2f-4b8c-9ff9-e1d61b7f161b",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "P12345",
+        "coverage_start_date": "2023-09-20T12:01:56.348Z",
+        "coverage_end_date": "2023-09-20T22:21:08.093Z",
+        "created_at": "2023-09-21T03:43:01.559Z",
+        "updated_at": "2023-09-20T09:08:13.864Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "310b36c6-ac90-4ff8-bd83-608e93475e91",
+        "insurance_provider": "XYZ Insurance",
+        "policy_number": "P67890",
+        "coverage_start_date": "2023-09-20T10:55:20.876Z",
+        "coverage_end_date": "2023-09-20T21:39:57.892Z",
+        "created_at": "2023-09-20T07:30:39.131Z",
+        "updated_at": "2023-09-20T19:46:35.101Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "1bfa6a05-99d2-4550-8268-7c148a9277b5",
+        "insurance_provider": "123 Insurance",
+        "policy_number": "P24680",
+        "coverage_start_date": "2023-09-20T08:34:52.466Z",
+        "coverage_end_date": "2023-09-20T16:30:19.985Z",
+        "created_at": "2023-09-20T09:56:41.999Z",
+        "updated_at": "2023-09-20T11:53:58.536Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "d7a1c0c6-84f4-40c4-afaa-307b35879857",
+        "insurance_provider": "City Insurance",
+        "policy_number": "P13579",
+        "coverage_start_date": "2023-09-20T06:33:31.686Z",
+        "coverage_end_date": "2023-09-20T21:31:54.032Z",
+        "created_at": "2023-09-20T07:39:23.897Z",
+        "updated_at": "2023-09-20T20:50:45.363Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "726accac-d07b-4273-adc3-59d713fa6dec",
+        "insurance_provider": "Sunshine Insurance",
+        "policy_number": "P97531",
+        "coverage_start_date": "2023-09-20T20:18:44.505Z",
+        "coverage_end_date": "2023-09-21T01:20:27.912Z",
+        "created_at": "2023-09-20T08:46:32.420Z",
+        "updated_at": "2023-09-20T07:13:41.397Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "15be9876-6709-4cce-b7e9-555ed275f15a",
+        "name": "Dr. John Smith",
+        "specialty": "Cardiology",
+        "license_number": "L12345",
+        "created_at": "2023-09-20T14:01:29.707Z",
+        "updated_at": "2023-09-20T21:48:40.106Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c72a5b8e-5940-435e-bba4-1205ac38a2b4",
+        "name": "Dr. Jane Johnson",
+        "specialty": "Dermatology",
+        "license_number": "L67890",
+        "created_at": "2023-09-20T11:22:29.789Z",
+        "updated_at": "2023-09-20T15:33:14.077Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00379d77-1c92-4733-addc-57735a88c6bc",
+        "name": "Dr. Michael Brown",
+        "specialty": "Pediatrics",
+        "license_number": "L24680",
+        "created_at": "2023-09-20T11:12:38.503Z",
+        "updated_at": "2023-09-21T00:59:32.825Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15befda0-2649-4dab-a329-f00121be76f6",
+        "name": "Dr. Sarah Davis",
+        "specialty": "Orthopedics",
+        "license_number": "L13579",
+        "created_at": "2023-09-20T19:13:55.307Z",
+        "updated_at": "2023-09-21T04:48:11.512Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc8d1254-26fc-451f-9396-793c04c5add4",
+        "name": "Dr. David Wilson",
+        "specialty": "Psychiatry",
+        "license_number": "L97531",
+        "created_at": "2023-09-20T05:09:18.249Z",
+        "updated_at": "2023-09-20T18:28:51.395Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "e7c7376c-bcc1-4071-9a31-7a49572d2946",
+        "date_time": "2023-09-20T06:30:58.958Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-20T17:46:17.991Z",
+        "updated_at": "2023-09-21T01:38:29.765Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "dc8d1254-26fc-451f-9396-793c04c5add4",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "7ed32359-4851-49b7-a45d-9dd8d0cbc945",
+        "date_time": "2023-09-21T01:49:28.748Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T05:50:42.977Z",
+        "updated_at": "2023-09-20T05:23:18.892Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "00379d77-1c92-4733-addc-57735a88c6bc",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "75a20c90-95be-410e-8d43-171b21f2a7c5",
+        "date_time": "2023-09-21T00:19:38.489Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T16:42:10.146Z",
+        "updated_at": "2023-09-20T09:26:31.766Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "15befda0-2649-4dab-a329-f00121be76f6",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "1eab6e42-b475-4222-bd68-6d3118170ae3",
+        "date_time": "2023-09-21T02:01:01.795Z",
+        "status": "In Progress",
+        "created_at": "2023-09-20T08:51:40.006Z",
+        "updated_at": "2023-09-20T23:53:26.767Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "dc8d1254-26fc-451f-9396-793c04c5add4",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "28c5448c-e89f-40f7-9bfe-8f6893a61a12",
+        "date_time": "2023-09-20T20:29:11.073Z",
+        "status": "Rescheduled",
+        "created_at": "2023-09-20T08:22:36.587Z",
+        "updated_at": "2023-09-20T06:06:50.584Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "c72a5b8e-5940-435e-bba4-1205ac38a2b4",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "f639fe61-023f-4df0-a2da-db107275cebc",
+        "diagnosis": "Hypertension",
+        "treatment_plan": "Prescription medication",
+        "medical_history": "No significant medical history",
+        "created_at": "2023-09-21T00:28:04.729Z",
+        "updated_at": "2023-09-20T22:53:22.233Z",
+        "appointment_id": "1eab6e42-b475-4222-bd68-6d3118170ae3",
+        "doctor_id": "15befda0-2649-4dab-a329-f00121be76f6",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "14b7faf5-9bed-4186-848a-73d9a376c7dd",
+        "diagnosis": "Diabetes",
+        "treatment_plan": "Physical therapy",
+        "medical_history": "Allergies: None",
+        "created_at": "2023-09-20T05:52:59.294Z",
+        "updated_at": "2023-09-20T19:54:27.905Z",
+        "appointment_id": "7ed32359-4851-49b7-a45d-9dd8d0cbc945",
+        "doctor_id": "15befda0-2649-4dab-a329-f00121be76f6",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "a589a64a-d985-4982-a803-f557e3fdd0c9",
+        "diagnosis": "Asthma",
+        "treatment_plan": "Counseling sessions",
+        "medical_history": "Previous surgeries: Appendectomy",
+        "created_at": "2023-09-20T19:27:12.596Z",
+        "updated_at": "2023-09-20T10:35:21.022Z",
+        "appointment_id": "7ed32359-4851-49b7-a45d-9dd8d0cbc945",
+        "doctor_id": "00379d77-1c92-4733-addc-57735a88c6bc",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "6d0a01bd-5cba-4fc5-b756-67e166aee539",
+        "diagnosis": "Depression",
+        "treatment_plan": "Surgical intervention",
+        "medical_history": "Family history of heart disease",
+        "created_at": "2023-09-20T16:04:33.905Z",
+        "updated_at": "2023-09-20T17:41:07.388Z",
+        "appointment_id": "1eab6e42-b475-4222-bd68-6d3118170ae3",
+        "doctor_id": "c72a5b8e-5940-435e-bba4-1205ac38a2b4",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "e090f9de-b994-498a-96f3-ba2473681d43",
+        "diagnosis": "Migraine",
+        "treatment_plan": "Alternative medicine",
+        "medical_history": "Chronic condition: Hypothyroidism",
+        "created_at": "2023-09-20T11:51:13.543Z",
+        "updated_at": "2023-09-21T03:06:18.105Z",
+        "appointment_id": "1eab6e42-b475-4222-bd68-6d3118170ae3",
+        "doctor_id": "15befda0-2649-4dab-a329-f00121be76f6",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4c158fc2-5adc-4a54-b537-b66c7d2addcb",
+        "email": "Isabella55@hotmail.com",
+        "firstName": "Wava",
+        "lastName": "Romaguera",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/518.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "61a98145-0dd7-4728-9a31-cc4bba207e6a",
+        "email": "Carter.Walsh92@yahoo.com",
+        "firstName": "Camylle",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51483405",
+        "tenantId": null
+      },
+      {
+        "reference": "e1a9143e-37fb-4c54-a1fc-341974c85fa5",
+        "email": "Maudie.Cremin@gmail.com",
+        "firstName": "Garland",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39996462",
+        "tenantId": null
+      },
+      {
+        "reference": "f2cfb9fc-d714-4677-bc94-2c7b2e3055dd",
+        "email": "Kaleb76@gmail.com",
+        "firstName": "Elroy",
+        "lastName": "Hettinger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89559170",
+        "tenantId": null
+      },
+      {
+        "reference": "c919db52-86cb-4020-a30c-20fe42f62489",
+        "email": "Maryse.Becker62@gmail.com",
+        "firstName": "Rafael",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41042125",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance": [
+      {
+        "id": "ea0a947c-97e1-48e8-b084-1375917c04fb",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "P12345",
+        "coverage_start_date": "2023-09-21T01:01:33.881Z",
+        "coverage_end_date": "2023-09-20T19:01:35.396Z",
+        "created_at": "2023-09-21T04:37:31.978Z",
+        "updated_at": "2023-09-20T18:26:53.376Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "ccd5029c-f46b-4484-b5ce-964d17131588",
+        "insurance_provider": "XYZ Insurance",
+        "policy_number": "P67890",
+        "coverage_start_date": "2023-09-20T16:54:49.836Z",
+        "coverage_end_date": "2023-09-20T08:55:37.444Z",
+        "created_at": "2023-09-20T14:50:42.640Z",
+        "updated_at": "2023-09-20T18:30:43.210Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "ce721370-1905-4ed3-924d-c263a90e1cf9",
+        "insurance_provider": "123 Insurance",
+        "policy_number": "P24680",
+        "coverage_start_date": "2023-09-20T15:59:07.522Z",
+        "coverage_end_date": "2023-09-20T19:58:39.479Z",
+        "created_at": "2023-09-20T14:12:17.698Z",
+        "updated_at": "2023-09-20T11:31:39.068Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "cd732533-2638-413d-b23a-570e4c9799cf",
+        "insurance_provider": "City Insurance",
+        "policy_number": "P13579",
+        "coverage_start_date": "2023-09-21T04:38:51.417Z",
+        "coverage_end_date": "2023-09-20T17:25:38.575Z",
+        "created_at": "2023-09-21T00:41:31.086Z",
+        "updated_at": "2023-09-21T01:19:05.942Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "f15969fc-49ba-4766-ae70-bca030546c60",
+        "insurance_provider": "Sunshine Insurance",
+        "policy_number": "P97531",
+        "coverage_start_date": "2023-09-20T05:44:44.815Z",
+        "coverage_end_date": "2023-09-20T07:24:35.987Z",
+        "created_at": "2023-09-21T02:37:16.439Z",
+        "updated_at": "2023-09-20T10:41:06.441Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "ec7994ba-f31b-4c0d-92b6-45cd2234d8e5",
+        "name": "Dr. John Smith",
+        "specialty": "Cardiology",
+        "license_number": "L12345",
+        "created_at": "2023-09-20T17:57:20.209Z",
+        "updated_at": "2023-09-20T21:41:47.025Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54fd8c97-ae2d-4642-8703-24fcf47d6f9e",
+        "name": "Dr. Sarah Johnson",
+        "specialty": "Dermatology",
+        "license_number": "L67890",
+        "created_at": "2023-09-20T19:02:26.685Z",
+        "updated_at": "2023-09-20T22:34:20.048Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "972c2b22-89fc-48dc-80de-793dc8a5c33f",
+        "name": "Dr. Michael Brown",
+        "specialty": "Pediatrics",
+        "license_number": "L24680",
+        "created_at": "2023-09-20T23:39:24.544Z",
+        "updated_at": "2023-09-20T20:15:39.167Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7910e919-566c-4e11-ac00-d0ee70d243e4",
+        "name": "Dr. Jane Wilson",
+        "specialty": "Ophthalmology",
+        "license_number": "L13579",
+        "created_at": "2023-09-21T02:58:35.400Z",
+        "updated_at": "2023-09-20T12:15:50.672Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3fc2dbc-9fbb-4b5f-91cd-115482404e71",
+        "name": "Dr. David Davis",
+        "specialty": "Orthopedics",
+        "license_number": "L97531",
+        "created_at": "2023-09-21T00:11:50.057Z",
+        "updated_at": "2023-09-20T11:52:51.018Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "ce30482b-788a-47cd-8b91-a8cab054451d",
+        "date_time": "2023-09-20T22:08:18.285Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-20T06:46:20.020Z",
+        "updated_at": "2023-09-20T06:40:44.289Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "7910e919-566c-4e11-ac00-d0ee70d243e4",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "cc835c27-6b18-480e-a1b7-69f3c5b1f734",
+        "date_time": "2023-09-20T10:23:01.227Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T23:12:08.440Z",
+        "updated_at": "2023-09-20T04:57:51.148Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "54fd8c97-ae2d-4642-8703-24fcf47d6f9e",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "3ac9fd1f-185b-42ad-ba51-588104273f65",
+        "date_time": "2023-09-21T01:18:27.410Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T07:40:32.287Z",
+        "updated_at": "2023-09-20T10:47:41.770Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "ec7994ba-f31b-4c0d-92b6-45cd2234d8e5",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "6c9df6e3-63f7-425d-9209-deedf3d65a56",
+        "date_time": "2023-09-21T00:07:31.372Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T13:09:24.521Z",
+        "updated_at": "2023-09-20T14:23:16.549Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "54fd8c97-ae2d-4642-8703-24fcf47d6f9e",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "30d89c1c-cdbf-439a-a352-30cfc7053b02",
+        "date_time": "2023-09-21T02:09:41.230Z",
+        "status": "Rescheduled",
+        "created_at": "2023-09-20T11:43:26.157Z",
+        "updated_at": "2023-09-20T17:11:05.820Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "972c2b22-89fc-48dc-80de-793dc8a5c33f",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "b029c3a3-799a-42fd-b30f-c448eeca36ae",
+        "diagnosis": "Hypertension",
+        "treatment_plan": "Prescription medication",
+        "medical_history": "No significant medical history",
+        "created_at": "2023-09-21T02:05:00.856Z",
+        "updated_at": "2023-09-20T07:36:45.156Z",
+        "appointment_id": "30d89c1c-cdbf-439a-a352-30cfc7053b02",
+        "doctor_id": "a3fc2dbc-9fbb-4b5f-91cd-115482404e71",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "7d51924c-4179-4128-ae3f-6bc3888d8e68",
+        "diagnosis": "Diabetes",
+        "treatment_plan": "Physical therapy",
+        "medical_history": "Allergies: None",
+        "created_at": "2023-09-20T14:08:25.820Z",
+        "updated_at": "2023-09-20T15:01:56.919Z",
+        "appointment_id": "ce30482b-788a-47cd-8b91-a8cab054451d",
+        "doctor_id": "a3fc2dbc-9fbb-4b5f-91cd-115482404e71",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "0da9b0c8-7eb6-4ee7-a6ea-59e816948e49",
+        "diagnosis": "Asthma",
+        "treatment_plan": "Surgery",
+        "medical_history": "Previous surgeries: None",
+        "created_at": "2023-09-20T10:36:39.933Z",
+        "updated_at": "2023-09-20T23:39:57.007Z",
+        "appointment_id": "6c9df6e3-63f7-425d-9209-deedf3d65a56",
+        "doctor_id": "54fd8c97-ae2d-4642-8703-24fcf47d6f9e",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "73778bad-8150-47c8-b389-55c4ca975894",
+        "diagnosis": "Migraine",
+        "treatment_plan": "Lifestyle modifications",
+        "medical_history": "Family history: No hereditary diseases",
+        "created_at": "2023-09-20T15:08:09.606Z",
+        "updated_at": "2023-09-21T03:11:56.524Z",
+        "appointment_id": "6c9df6e3-63f7-425d-9209-deedf3d65a56",
+        "doctor_id": "972c2b22-89fc-48dc-80de-793dc8a5c33f",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "b7c29b1d-cb98-43a2-b422-1333d20b0eb8",
+        "diagnosis": "Arthritis",
+        "treatment_plan": "Counseling",
+        "medical_history": "Immunizations up to date",
+        "created_at": "2023-09-20T06:06:13.657Z",
+        "updated_at": "2023-09-20T17:34:40.847Z",
+        "appointment_id": "3ac9fd1f-185b-42ad-ba51-588104273f65",
+        "doctor_id": "a3fc2dbc-9fbb-4b5f-91cd-115482404e71",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "56968da0-0b72-422e-ad50-7d8cbf0eaf44",
+        "email": "Jevon.Haag21@gmail.com",
+        "firstName": "Genevieve",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/582.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "34713377-4957-4d08-8468-afdeb552b8fc",
+        "email": "Izabella.Trantow-Littel47@hotmail.com",
+        "firstName": "Whitney",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/845.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "889133ab-03dd-4891-a615-8b011969d0f6",
+        "email": "Addie.Rutherford99@yahoo.com",
+        "firstName": "Sammie",
+        "lastName": "Hayes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59254568",
+        "tenantId": null
+      },
+      {
+        "reference": "0ab3483f-abb3-4cfb-ae1b-2358beb43e47",
+        "email": "Keegan60@yahoo.com",
+        "firstName": "Zachariah",
+        "lastName": "Watsica",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79808238",
+        "tenantId": null
+      },
+      {
+        "reference": "71c7c54a-a321-4500-b905-8508906287e7",
+        "email": "Anika_Kohler@gmail.com",
+        "firstName": "Ben",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/148.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance": [
+      {
+        "id": "117f2131-d494-434c-b559-73333c39bb04",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "A12345",
+        "coverage_start_date": "2023-09-20T23:40:52.146Z",
+        "coverage_end_date": "2023-09-20T10:09:13.167Z",
+        "created_at": "2023-09-20T13:04:51.946Z",
+        "updated_at": "2023-09-20T06:47:21.966Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "bcdb23b8-4e54-4c1d-a5c2-d03b590e3100",
+        "insurance_provider": "XYZ Insurance",
+        "policy_number": "B67890",
+        "coverage_start_date": "2023-09-20T08:47:55.945Z",
+        "coverage_end_date": "2023-09-20T22:59:05.092Z",
+        "created_at": "2023-09-20T20:26:16.258Z",
+        "updated_at": "2023-09-20T15:28:09.390Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "18ca4390-c631-49e0-af73-4838f6b52f95",
+        "insurance_provider": "123 Insurance",
+        "policy_number": "C54321",
+        "coverage_start_date": "2023-09-21T02:31:29.520Z",
+        "coverage_end_date": "2023-09-20T21:37:03.348Z",
+        "created_at": "2023-09-20T07:39:38.802Z",
+        "updated_at": "2023-09-20T22:34:33.413Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "26dc9c3c-0f14-45fa-98ff-65788446ab7a",
+        "insurance_provider": "PQR Insurance",
+        "policy_number": "D09876",
+        "coverage_start_date": "2023-09-20T23:32:34.463Z",
+        "coverage_end_date": "2023-09-20T05:01:50.037Z",
+        "created_at": "2023-09-20T20:19:18.390Z",
+        "updated_at": "2023-09-20T22:32:24.185Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "63579b0c-c5b1-4888-a530-4390f2c1732a",
+        "insurance_provider": "789 Insurance",
+        "policy_number": "E13579",
+        "coverage_start_date": "2023-09-20T11:10:27.812Z",
+        "coverage_end_date": "2023-09-20T06:44:58.771Z",
+        "created_at": "2023-09-20T16:29:47.599Z",
+        "updated_at": "2023-09-20T05:59:26.409Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "8e6c7257-c966-463e-b6e8-6e8e9c44938f",
+        "name": "Dr. John Smith",
+        "specialty": "Cardiology",
+        "license_number": "12345",
+        "created_at": "2023-09-21T03:05:42.930Z",
+        "updated_at": "2023-09-20T22:11:58.440Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50a8cd7c-1d6f-4a73-998c-0a922ce06883",
+        "name": "Dr. Sarah Johnson",
+        "specialty": "Dermatology",
+        "license_number": "67890",
+        "created_at": "2023-09-20T19:35:24.403Z",
+        "updated_at": "2023-09-20T22:46:09.874Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcc42ae7-182f-4d92-871b-3c7f72fa33b2",
+        "name": "Dr. Michael Brown",
+        "specialty": "Orthopedics",
+        "license_number": "54321",
+        "created_at": "2023-09-20T05:15:02.759Z",
+        "updated_at": "2023-09-20T10:30:28.675Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "721ba3b0-8951-41a3-911f-1720610a598d",
+        "name": "Dr. Emily Davis",
+        "specialty": "Pediatrics",
+        "license_number": "09876",
+        "created_at": "2023-09-21T03:35:40.064Z",
+        "updated_at": "2023-09-20T20:30:28.437Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab9b1f2d-06c9-40a0-97aa-4814915abfed",
+        "name": "Dr. Robert Wilson",
+        "specialty": "Gynecology",
+        "license_number": "13579",
+        "created_at": "2023-09-20T22:16:04.729Z",
+        "updated_at": "2023-09-20T18:16:55.572Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "7ace3e20-34fc-4ced-b060-67975e361f32",
+        "date_time": "2023-09-20T18:50:55.714Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-20T10:58:34.904Z",
+        "updated_at": "2023-09-20T13:35:17.318Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "ab9b1f2d-06c9-40a0-97aa-4814915abfed",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "66ddd4ec-e228-40a7-85bf-78230beee87d",
+        "date_time": "2023-09-20T11:23:59.168Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-20T20:20:58.705Z",
+        "updated_at": "2023-09-20T12:14:01.603Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "8e6c7257-c966-463e-b6e8-6e8e9c44938f",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "ed58ecc0-01e8-4ad3-96af-547e794c1464",
+        "date_time": "2023-09-20T15:54:44.163Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T09:03:18.711Z",
+        "updated_at": "2023-09-21T01:04:05.243Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "dcc42ae7-182f-4d92-871b-3c7f72fa33b2",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "b7f56add-3e47-4e95-8381-8a1f7d7c00af",
+        "date_time": "2023-09-20T14:09:05.807Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T06:51:40.092Z",
+        "updated_at": "2023-09-20T11:32:44.808Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "8e6c7257-c966-463e-b6e8-6e8e9c44938f",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "df6bc67b-9ba2-4ae7-91bd-52698aa52d3c",
+        "date_time": "2023-09-21T00:02:55.589Z",
+        "status": "Rescheduled",
+        "created_at": "2023-09-20T09:48:06.288Z",
+        "updated_at": "2023-09-21T01:36:00.226Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "721ba3b0-8951-41a3-911f-1720610a598d",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "15b98b42-a892-40ff-80b3-469cd35302c6",
+        "diagnosis": "Hypertension",
+        "treatment_plan": "Prescription medication and lifestyle changes",
+        "medical_history": "No significant medical history",
+        "created_at": "2023-09-20T20:30:22.395Z",
+        "updated_at": "2023-09-20T17:30:28.029Z",
+        "appointment_id": "b7f56add-3e47-4e95-8381-8a1f7d7c00af",
+        "doctor_id": "dcc42ae7-182f-4d92-871b-3c7f72fa33b2",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "5e4bfaa6-be0a-490d-aacc-fc0194b76dd7",
+        "diagnosis": "Diabetes",
+        "treatment_plan": "Physical therapy and exercises",
+        "medical_history": "Allergic to penicillin",
+        "created_at": "2023-09-20T14:48:30.340Z",
+        "updated_at": "2023-09-20T09:45:01.278Z",
+        "appointment_id": "ed58ecc0-01e8-4ad3-96af-547e794c1464",
+        "doctor_id": "ab9b1f2d-06c9-40a0-97aa-4814915abfed",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "66b03c13-8cc5-4387-ba70-dbea837b3315",
+        "diagnosis": "Migraine",
+        "treatment_plan": "Surgery followed by rehabilitation",
+        "medical_history": "Previous surgery for appendicitis",
+        "created_at": "2023-09-20T20:50:35.311Z",
+        "updated_at": "2023-09-20T19:57:48.143Z",
+        "appointment_id": "ed58ecc0-01e8-4ad3-96af-547e794c1464",
+        "doctor_id": "dcc42ae7-182f-4d92-871b-3c7f72fa33b2",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "2780cf45-0fcb-4819-98a0-5829c3c0cc05",
+        "diagnosis": "Bronchitis",
+        "treatment_plan": "Counseling and relaxation techniques",
+        "medical_history": "Family history of heart disease",
+        "created_at": "2023-09-20T17:44:29.248Z",
+        "updated_at": "2023-09-20T23:04:26.337Z",
+        "appointment_id": "7ace3e20-34fc-4ced-b060-67975e361f32",
+        "doctor_id": "721ba3b0-8951-41a3-911f-1720610a598d",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "3a434fa4-b250-47d8-937c-5e637941d0b4",
+        "diagnosis": "Anxiety Disorder",
+        "treatment_plan": "Medication and regular check-ups",
+        "medical_history": "History of asthma",
+        "created_at": "2023-09-20T13:17:52.234Z",
+        "updated_at": "2023-09-20T06:41:25.378Z",
+        "appointment_id": "66ddd4ec-e228-40a7-85bf-78230beee87d",
+        "doctor_id": "8e6c7257-c966-463e-b6e8-6e8e9c44938f",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "43755761-cacf-4964-abee-545005860053",
+        "email": "Emmalee_Lynch@gmail.com",
+        "firstName": "Jamey",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4567750",
+        "tenantId": null
+      },
+      {
+        "reference": "76309744-d4ce-42f5-bfab-bff5a190abd5",
+        "email": "Consuelo4@gmail.com",
+        "firstName": "Deja",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53913407",
+        "tenantId": null
+      },
+      {
+        "reference": "0c5ac851-ec13-430b-be04-145a8992b003",
+        "email": "Jefferey_Hartmann36@hotmail.com",
+        "firstName": "Marlon",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69205916",
+        "tenantId": null
+      },
+      {
+        "reference": "803deb75-314b-4196-9626-80f3c3878a79",
+        "email": "Gene_Jones-Kling64@yahoo.com",
+        "firstName": "Sylvester",
+        "lastName": "Purdy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22708417",
+        "tenantId": null
+      },
+      {
+        "reference": "d4cf0a8d-45b1-4892-95d5-72a053fb73b2",
+        "email": "Clemens62@hotmail.com",
+        "firstName": "Hector",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57919415",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance": [
+      {
+        "id": "19f6a2a6-96bc-459b-9cd0-397ddc803fcf",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "123456789",
+        "coverage_start_date": "2023-09-20T05:16:22.848Z",
+        "coverage_end_date": "2023-09-21T04:36:19.605Z",
+        "created_at": "2023-09-20T07:47:46.526Z",
+        "updated_at": "2023-09-20T18:07:45.972Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "97a3601a-8e03-468e-b52b-46f54138fca6",
+        "insurance_provider": "XYZ Insurance",
+        "policy_number": "987654321",
+        "coverage_start_date": "2023-09-21T01:28:30.685Z",
+        "coverage_end_date": "2023-09-20T20:36:40.066Z",
+        "created_at": "2023-09-21T04:55:39.124Z",
+        "updated_at": "2023-09-20T07:38:58.815Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "20bc7a49-1d15-407d-866b-ed0504ae4e70",
+        "insurance_provider": "123 Insurance",
+        "policy_number": "456789123",
+        "coverage_start_date": "2023-09-21T02:54:00.285Z",
+        "coverage_end_date": "2023-09-20T12:55:39.355Z",
+        "created_at": "2023-09-20T14:32:19.225Z",
+        "updated_at": "2023-09-21T02:29:38.558Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "43883218-092b-4aa8-8f5c-e0531f386309",
+        "insurance_provider": "City Insurance",
+        "policy_number": "789123456",
+        "coverage_start_date": "2023-09-20T21:54:19.149Z",
+        "coverage_end_date": "2023-09-20T13:23:40.463Z",
+        "created_at": "2023-09-21T02:35:57.333Z",
+        "updated_at": "2023-09-21T04:02:49.924Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "7576f679-16f9-4328-bae6-21d574726a07",
+        "insurance_provider": "Family Insurance",
+        "policy_number": "321654987",
+        "coverage_start_date": "2023-09-20T07:52:30.484Z",
+        "coverage_end_date": "2023-09-20T10:03:27.844Z",
+        "created_at": "2023-09-20T06:39:51.216Z",
+        "updated_at": "2023-09-21T02:06:02.941Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "5e12fd69-523b-4b79-a40b-ca36708a9d17",
+        "name": "Dr. John Smith",
+        "specialty": "Cardiology",
+        "license_number": "12345",
+        "created_at": "2023-09-20T23:41:16.724Z",
+        "updated_at": "2023-09-20T17:28:30.808Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44d815b6-8d4e-452c-822f-e1fa7a6955ca",
+        "name": "Dr. Jane Johnson",
+        "specialty": "Dermatology",
+        "license_number": "54321",
+        "created_at": "2023-09-20T16:43:06.152Z",
+        "updated_at": "2023-09-20T22:05:14.032Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2bf5d520-e686-4045-9987-01df89ed619e",
+        "name": "Dr. Michael Brown",
+        "specialty": "Gastroenterology",
+        "license_number": "67890",
+        "created_at": "2023-09-20T13:37:49.689Z",
+        "updated_at": "2023-09-20T10:46:41.641Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14b72d62-a664-443f-af5f-56ebb441d8eb",
+        "name": "Dr. Sarah Wilson",
+        "specialty": "Neurology",
+        "license_number": "09876",
+        "created_at": "2023-09-21T03:33:50.518Z",
+        "updated_at": "2023-09-20T17:30:22.876Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4966ba8-36f6-4fc3-8e07-9619929c4915",
+        "name": "Dr. Robert Davis",
+        "specialty": "Ophthalmology",
+        "license_number": "13579",
+        "created_at": "2023-09-20T17:42:46.536Z",
+        "updated_at": "2023-09-20T14:38:31.934Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "4af9785d-f860-4ae3-860b-d6de104defac",
+        "date_time": "2023-09-20T21:25:51.710Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-20T23:01:01.046Z",
+        "updated_at": "2023-09-21T00:29:13.227Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "14b72d62-a664-443f-af5f-56ebb441d8eb",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "2c181f37-8e42-4360-9909-239cd752c9f4",
+        "date_time": "2023-09-21T01:05:49.964Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-20T12:03:35.501Z",
+        "updated_at": "2023-09-20T07:48:44.992Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "5e12fd69-523b-4b79-a40b-ca36708a9d17",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "dc462628-6b80-41fc-8a89-7eea72d7a5d1",
+        "date_time": "2023-09-20T05:05:30.761Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-21T00:21:56.368Z",
+        "updated_at": "2023-09-21T03:41:10.814Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "a4966ba8-36f6-4fc3-8e07-9619929c4915",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "0833209e-3247-49a7-bbda-ac918f3ae237",
+        "date_time": "2023-09-20T07:18:38.688Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T00:53:38.911Z",
+        "updated_at": "2023-09-20T08:45:48.622Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "2bf5d520-e686-4045-9987-01df89ed619e",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "e61e5e5a-be6a-4315-be1c-61bce9a5bd00",
+        "date_time": "2023-09-20T22:26:05.940Z",
+        "status": "No-show",
+        "created_at": "2023-09-20T08:38:20.578Z",
+        "updated_at": "2023-09-20T17:29:28.219Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "14b72d62-a664-443f-af5f-56ebb441d8eb",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "b283d8e2-5f41-41e1-9904-846e25feba4f",
+        "diagnosis": "Hypertension",
+        "treatment_plan": "Prescription medication",
+        "medical_history": "No significant medical history",
+        "created_at": "2023-09-20T08:09:39.908Z",
+        "updated_at": "2023-09-20T12:30:11.827Z",
+        "appointment_id": "2c181f37-8e42-4360-9909-239cd752c9f4",
+        "doctor_id": "44d815b6-8d4e-452c-822f-e1fa7a6955ca",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "8e5f8d29-aab5-4982-ac2c-19c0495672eb",
+        "diagnosis": "Diabetes",
+        "treatment_plan": "Physical therapy",
+        "medical_history": "Allergies: None",
+        "created_at": "2023-09-20T12:11:09.153Z",
+        "updated_at": "2023-09-21T01:38:49.030Z",
+        "appointment_id": "e61e5e5a-be6a-4315-be1c-61bce9a5bd00",
+        "doctor_id": "a4966ba8-36f6-4fc3-8e07-9619929c4915",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "16c179dd-43f1-4a25-8dd0-8afa8efc3393",
+        "diagnosis": "Asthma",
+        "treatment_plan": "Surgery",
+        "medical_history": "Previous surgeries: None",
+        "created_at": "2023-09-20T16:44:56.394Z",
+        "updated_at": "2023-09-20T20:46:06.610Z",
+        "appointment_id": "0833209e-3247-49a7-bbda-ac918f3ae237",
+        "doctor_id": "a4966ba8-36f6-4fc3-8e07-9619929c4915",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "8775a67f-9879-4bd9-8a5c-2ef88a45a999",
+        "diagnosis": "Depression",
+        "treatment_plan": "Counseling",
+        "medical_history": "Family history: Diabetes",
+        "created_at": "2023-09-20T19:00:41.413Z",
+        "updated_at": "2023-09-20T23:31:20.241Z",
+        "appointment_id": "0833209e-3247-49a7-bbda-ac918f3ae237",
+        "doctor_id": "5e12fd69-523b-4b79-a40b-ca36708a9d17",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "70951a0a-e092-44b5-a0eb-d0fa0b73e2d1",
+        "diagnosis": "Migraine",
+        "treatment_plan": "Lifestyle changes",
+        "medical_history": "Current medications: None",
+        "created_at": "2023-09-20T12:22:18.050Z",
+        "updated_at": "2023-09-20T18:52:09.172Z",
+        "appointment_id": "dc462628-6b80-41fc-8a89-7eea72d7a5d1",
+        "doctor_id": "44d815b6-8d4e-452c-822f-e1fa7a6955ca",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "746839b6-bdd6-4c99-b4ec-393b3587ba74",
+        "email": "Bernardo34@yahoo.com",
+        "firstName": "Madyson",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24958026",
+        "tenantId": null
+      },
+      {
+        "reference": "1b1a8db1-a954-410b-8679-f375f4e03c87",
+        "email": "Monica15@gmail.com",
+        "firstName": "Stephania",
+        "lastName": "Mayer-Fadel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/559.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "186acd87-062d-4062-8d64-ca60eb42bb46",
+        "email": "Alfonso47@hotmail.com",
+        "firstName": "Micheal",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/210.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c9bb0f1c-50df-4d4f-ac40-72d8e3538a06",
+        "email": "Brooklyn51@gmail.com",
+        "firstName": "Johnathan",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6454188",
+        "tenantId": null
+      },
+      {
+        "reference": "50c34f36-7ad4-4905-aa19-b6a4b246353d",
+        "email": "Paolo9@hotmail.com",
+        "firstName": "Nedra",
+        "lastName": "Will",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68068341",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance": [
+      {
+        "id": "fc83e6cf-34d6-4a37-957a-60d02b8aa23f",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "A12345",
+        "coverage_start_date": "2023-09-20T11:10:12.683Z",
+        "coverage_end_date": "2023-09-20T09:02:24.375Z",
+        "created_at": "2023-09-20T21:04:27.231Z",
+        "updated_at": "2023-09-20T13:53:08.443Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "83761406-3435-4781-9535-d6967fae8b0c",
+        "insurance_provider": "XYZ Insurance",
+        "policy_number": "B67890",
+        "coverage_start_date": "2023-09-20T21:27:43.745Z",
+        "coverage_end_date": "2023-09-21T02:50:57.226Z",
+        "created_at": "2023-09-20T09:38:06.844Z",
+        "updated_at": "2023-09-21T00:05:00.395Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "483d722e-c381-4b5a-84e9-ec677c01cd1f",
+        "insurance_provider": "123 Insurance",
+        "policy_number": "C24680",
+        "coverage_start_date": "2023-09-20T16:37:13.436Z",
+        "coverage_end_date": "2023-09-20T20:10:34.154Z",
+        "created_at": "2023-09-20T21:11:38.233Z",
+        "updated_at": "2023-09-20T07:40:39.945Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "5ca1af55-a973-4040-88da-d5f2df2a8c70",
+        "insurance_provider": "PQR Insurance",
+        "policy_number": "D13579",
+        "coverage_start_date": "2023-09-20T11:02:46.139Z",
+        "coverage_end_date": "2023-09-20T09:55:12.735Z",
+        "created_at": "2023-09-20T08:11:50.075Z",
+        "updated_at": "2023-09-20T09:56:27.405Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "393659c8-b1bd-4b58-b607-bf9b76fe5e5b",
+        "insurance_provider": "789 Insurance",
+        "policy_number": "E97531",
+        "coverage_start_date": "2023-09-20T05:21:18.843Z",
+        "coverage_end_date": "2023-09-20T15:42:27.580Z",
+        "created_at": "2023-09-20T11:27:14.942Z",
+        "updated_at": "2023-09-20T18:10:09.079Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "e1d2a062-0c61-4b20-a681-6d0276a17fbf",
+        "name": "Dr. John Smith",
+        "specialty": "Cardiology",
+        "license_number": "12345",
+        "created_at": "2023-09-20T10:06:59.245Z",
+        "updated_at": "2023-09-20T07:07:50.076Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "324db1d5-6487-46d9-bc15-0abdcb70d912",
+        "name": "Dr. Emily Johnson",
+        "specialty": "Dermatology",
+        "license_number": "67890",
+        "created_at": "2023-09-20T21:05:36.672Z",
+        "updated_at": "2023-09-20T14:50:43.623Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee1140e8-5c4d-4eb4-90e3-1f99c48ed13d",
+        "name": "Dr. Michael Davis",
+        "specialty": "Pediatrics",
+        "license_number": "24680",
+        "created_at": "2023-09-20T11:24:20.492Z",
+        "updated_at": "2023-09-20T07:39:21.779Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a207b4b0-e7b3-423d-9760-39e55ace19f9",
+        "name": "Dr. Sarah Wilson",
+        "specialty": "Orthopedics",
+        "license_number": "13579",
+        "created_at": "2023-09-20T17:31:48.191Z",
+        "updated_at": "2023-09-21T00:52:01.833Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a80b99e1-b90a-4efa-bed4-2a91305ba1e2",
+        "name": "Dr. Robert Thompson",
+        "specialty": "Gynecology",
+        "license_number": "97531",
+        "created_at": "2023-09-20T12:33:17.291Z",
+        "updated_at": "2023-09-20T12:45:19.879Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "8b783f96-0a73-473e-97f7-8e9984896005",
+        "date_time": "2023-09-20T09:50:08.492Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-20T21:29:22.770Z",
+        "updated_at": "2023-09-20T23:11:18.802Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "a207b4b0-e7b3-423d-9760-39e55ace19f9",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "f6a00603-c977-4b42-9c35-8014678524b7",
+        "date_time": "2023-09-20T10:16:01.828Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T21:50:35.621Z",
+        "updated_at": "2023-09-20T17:54:59.335Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "a80b99e1-b90a-4efa-bed4-2a91305ba1e2",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "c55f2200-e29f-4452-8a37-b07df0606e7a",
+        "date_time": "2023-09-21T02:53:43.765Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T13:29:13.859Z",
+        "updated_at": "2023-09-20T05:15:16.033Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "e1d2a062-0c61-4b20-a681-6d0276a17fbf",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "a3edd161-83d5-44f3-af9a-f49352c7f66f",
+        "date_time": "2023-09-20T21:29:25.865Z",
+        "status": "Rescheduled",
+        "created_at": "2023-09-21T00:02:47.284Z",
+        "updated_at": "2023-09-20T09:13:20.804Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "a207b4b0-e7b3-423d-9760-39e55ace19f9",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "d2d24995-09af-42df-a470-7d3dd22a8e94",
+        "date_time": "2023-09-20T06:26:55.817Z",
+        "status": "In Progress",
+        "created_at": "2023-09-20T17:40:29.778Z",
+        "updated_at": "2023-09-20T17:57:00.366Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "ee1140e8-5c4d-4eb4-90e3-1f99c48ed13d",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "71c51d59-8189-47a0-8e70-a5eb28d04bca",
+        "diagnosis": "Hypertension",
+        "treatment_plan": "Prescription medication",
+        "medical_history": "No significant medical history",
+        "created_at": "2023-09-20T10:55:06.638Z",
+        "updated_at": "2023-09-20T21:51:25.583Z",
+        "appointment_id": "f6a00603-c977-4b42-9c35-8014678524b7",
+        "doctor_id": "ee1140e8-5c4d-4eb4-90e3-1f99c48ed13d",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "7b25e27d-6c51-4d14-ae25-5f76a9c1549d",
+        "diagnosis": "Diabetes",
+        "treatment_plan": "Physical therapy",
+        "medical_history": "Allergies: None",
+        "created_at": "2023-09-20T09:54:22.884Z",
+        "updated_at": "2023-09-20T13:16:18.151Z",
+        "appointment_id": "f6a00603-c977-4b42-9c35-8014678524b7",
+        "doctor_id": "e1d2a062-0c61-4b20-a681-6d0276a17fbf",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "acb87804-5cc9-4182-9533-9ab46b7b8abb",
+        "diagnosis": "Migraine",
+        "treatment_plan": "Surgery",
+        "medical_history": "Previous surgeries: Appendectomy",
+        "created_at": "2023-09-20T11:19:39.835Z",
+        "updated_at": "2023-09-20T11:40:47.537Z",
+        "appointment_id": "a3edd161-83d5-44f3-af9a-f49352c7f66f",
+        "doctor_id": "a80b99e1-b90a-4efa-bed4-2a91305ba1e2",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "bedd009f-ec0f-4045-af55-396d9d71d2e6",
+        "diagnosis": "Arthritis",
+        "treatment_plan": "Counseling",
+        "medical_history": "Family history of heart disease",
+        "created_at": "2023-09-20T09:51:53.945Z",
+        "updated_at": "2023-09-20T09:38:41.591Z",
+        "appointment_id": "a3edd161-83d5-44f3-af9a-f49352c7f66f",
+        "doctor_id": "ee1140e8-5c4d-4eb4-90e3-1f99c48ed13d",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "2cf3de8c-a0b0-448e-81c8-b92bf9830272",
+        "diagnosis": "Depression",
+        "treatment_plan": "Lifestyle changes",
+        "medical_history": "Current medications: None",
+        "created_at": "2023-09-20T12:34:32.922Z",
+        "updated_at": "2023-09-20T17:00:52.814Z",
+        "appointment_id": "d2d24995-09af-42df-a470-7d3dd22a8e94",
+        "doctor_id": "a80b99e1-b90a-4efa-bed4-2a91305ba1e2",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b5b0fd4a-3df0-4dab-a0be-0bc00fc1fefd",
+        "email": "Asa_Hintz65@hotmail.com",
+        "firstName": "Dariana",
+        "lastName": "Rice",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28135342",
+        "tenantId": null
+      },
+      {
+        "reference": "1c6dac87-896e-42b6-b637-aa16aed68b6c",
+        "email": "Trystan80@gmail.com",
+        "firstName": "Brenda",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52243721",
+        "tenantId": null
+      },
+      {
+        "reference": "47bcb50c-756e-4d5f-bff1-9c6c5390aa6f",
+        "email": "Lavina.Bode53@gmail.com",
+        "firstName": "Arvid",
+        "lastName": "Yundt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98380169",
+        "tenantId": null
+      },
+      {
+        "reference": "60be2414-714e-4ce0-8ae2-39ea5fd75709",
+        "email": "Madison.Smitham12@hotmail.com",
+        "firstName": "Javonte",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/947.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "48e8db75-2e91-49b5-8987-a6166a2f6635",
+        "email": "Ellsworth_Lueilwitz@yahoo.com",
+        "firstName": "Gretchen",
+        "lastName": "Waters",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/78.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "insurance": [
+      {
+        "id": "b853740e-791a-42dc-b56e-564293454a69",
+        "insurance_provider": "ABC Insurance",
+        "policy_number": "A12345",
+        "coverage_start_date": "2023-09-20T14:48:30.255Z",
+        "coverage_end_date": "2023-09-20T12:11:30.688Z",
+        "created_at": "2023-09-20T20:51:58.961Z",
+        "updated_at": "2023-09-20T17:31:14.795Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "6790fbd1-8ef4-4bc7-be5e-51c68e77f998",
+        "insurance_provider": "XYZ Insurance",
+        "policy_number": "B67890",
+        "coverage_start_date": "2023-09-20T17:47:51.095Z",
+        "coverage_end_date": "2023-09-20T21:26:03.472Z",
+        "created_at": "2023-09-21T02:29:09.522Z",
+        "updated_at": "2023-09-20T10:58:50.440Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "8deba0aa-3dd4-4390-8973-20346f469b71",
+        "insurance_provider": "123 Insurance",
+        "policy_number": "C54321",
+        "coverage_start_date": "2023-09-21T04:56:58.144Z",
+        "coverage_end_date": "2023-09-20T23:45:30.043Z",
+        "created_at": "2023-09-20T18:06:53.707Z",
+        "updated_at": "2023-09-20T20:36:14.696Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "b0513dc6-a4b4-496f-b6f2-41abf5f9347e",
+        "insurance_provider": "PQR Insurance",
+        "policy_number": "D09876",
+        "coverage_start_date": "2023-09-20T23:09:49.853Z",
+        "coverage_end_date": "2023-09-21T03:11:02.913Z",
+        "created_at": "2023-09-20T21:54:10.229Z",
+        "updated_at": "2023-09-20T20:31:18.177Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "18dc09d0-8088-4af3-ba1d-891f65184b9b",
+        "insurance_provider": "789 Insurance",
+        "policy_number": "E13579",
+        "coverage_start_date": "2023-09-20T16:56:19.349Z",
+        "coverage_end_date": "2023-09-20T10:25:34.151Z",
+        "created_at": "2023-09-20T13:52:50.340Z",
+        "updated_at": "2023-09-20T22:13:46.676Z",
+        "clinic_id": "main_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "7fe28948-20ba-4878-8c54-6c60e3f204cf",
+        "name": "Dr. Johnson",
+        "specialty": "Cardiology",
+        "license_number": "12345",
+        "created_at": "2023-09-20T05:47:32.400Z",
+        "updated_at": "2023-09-21T03:54:12.387Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0064654a-4235-4369-9e78-86e8585b3fa6",
+        "name": "Dr. Williams",
+        "specialty": "Dermatology",
+        "license_number": "67890",
+        "created_at": "2023-09-21T04:53:07.755Z",
+        "updated_at": "2023-09-20T15:26:27.123Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0635770f-919f-4d7b-97c7-07625a0e36c8",
+        "name": "Dr. Brown",
+        "specialty": "Pediatrics",
+        "license_number": "54321",
+        "created_at": "2023-09-21T02:33:22.047Z",
+        "updated_at": "2023-09-21T01:07:14.889Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ce30aa4-220e-4a2d-b42d-702fb9972e52",
+        "name": "Dr. Davis",
+        "specialty": "Orthopedics",
+        "license_number": "09876",
+        "created_at": "2023-09-20T10:38:29.492Z",
+        "updated_at": "2023-09-20T19:27:30.748Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26dad551-0385-4481-a542-189e8718712c",
+        "name": "Dr. Martinez",
+        "specialty": "Psychiatry",
+        "license_number": "13579",
+        "created_at": "2023-09-21T04:02:31.080Z",
+        "updated_at": "2023-09-20T09:55:02.859Z",
+        "clinic_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "a32e8fa1-3081-4ed0-b8fe-be9a303ef8bd",
+        "date_time": "2023-09-20T19:06:33.837Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-20T20:31:21.897Z",
+        "updated_at": "2023-09-20T16:42:13.912Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "0064654a-4235-4369-9e78-86e8585b3fa6",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "e68bf653-8eb1-477a-ad19-232f9eb34746",
+        "date_time": "2023-09-20T06:05:49.090Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-20T12:12:38.535Z",
+        "updated_at": "2023-09-20T23:52:44.959Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "1ce30aa4-220e-4a2d-b42d-702fb9972e52",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "56b2fa03-3bb6-4edb-8ae2-81582011507a",
+        "date_time": "2023-09-21T03:29:59.627Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T18:16:26.735Z",
+        "updated_at": "2023-09-20T19:44:16.303Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "1ce30aa4-220e-4a2d-b42d-702fb9972e52",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "110e2ba4-da0c-4366-b026-e60a77d970ae",
+        "date_time": "2023-09-20T06:12:52.144Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T10:44:19.498Z",
+        "updated_at": "2023-09-20T09:22:55.389Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "26dad551-0385-4481-a542-189e8718712c",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "ab12e2f9-dc7d-4d94-975a-d00419638400",
+        "date_time": "2023-09-21T03:22:19.835Z",
+        "status": "No-show",
+        "created_at": "2023-09-21T03:36:24.694Z",
+        "updated_at": "2023-09-21T00:32:20.050Z",
+        "clinic_id": "main_entity_pk",
+        "doctor_id": "1ce30aa4-220e-4a2d-b42d-702fb9972e52",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "81dba9c6-ce02-4462-8c84-3f8b06797dbe",
+        "diagnosis": "Common cold",
+        "treatment_plan": "Rest and fluids",
+        "medical_history": "No significant medical history",
+        "created_at": "2023-09-20T23:51:42.270Z",
+        "updated_at": "2023-09-20T14:10:00.038Z",
+        "appointment_id": "56b2fa03-3bb6-4edb-8ae2-81582011507a",
+        "doctor_id": "7fe28948-20ba-4878-8c54-6c60e3f204cf",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "6a92161c-212b-4ba1-b314-af15690854e0",
+        "diagnosis": "Sprained ankle",
+        "treatment_plan": "Physical therapy",
+        "medical_history": "Previous sports injuries",
+        "created_at": "2023-09-20T10:43:57.703Z",
+        "updated_at": "2023-09-20T12:59:56.578Z",
+        "appointment_id": "ab12e2f9-dc7d-4d94-975a-d00419638400",
+        "doctor_id": "7fe28948-20ba-4878-8c54-6c60e3f204cf",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "03736850-6a20-483b-b253-fd310cf39736",
+        "diagnosis": "High blood pressure",
+        "treatment_plan": "Medication and lifestyle changes",
+        "medical_history": "Family history of heart disease",
+        "created_at": "2023-09-21T04:41:17.229Z",
+        "updated_at": "2023-09-20T19:58:25.145Z",
+        "appointment_id": "a32e8fa1-3081-4ed0-b8fe-be9a303ef8bd",
+        "doctor_id": "0064654a-4235-4369-9e78-86e8585b3fa6",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "5644bcb1-49c1-4e7c-87d0-40d7703dfa0f",
+        "diagnosis": "Anxiety disorder",
+        "treatment_plan": "Counseling and therapy",
+        "medical_history": "History of panic attacks",
+        "created_at": "2023-09-20T21:15:29.843Z",
+        "updated_at": "2023-09-21T04:20:25.276Z",
+        "appointment_id": "ab12e2f9-dc7d-4d94-975a-d00419638400",
+        "doctor_id": "0635770f-919f-4d7b-97c7-07625a0e36c8",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "af1c24c1-46f0-4df8-b4f5-049dd65aa586",
+        "diagnosis": "Diabetes",
+        "treatment_plan": "Insulin injections",
+        "medical_history": "Type 2 diabetes",
+        "created_at": "2023-09-20T10:16:42.445Z",
+        "updated_at": "2023-09-20T19:14:04.372Z",
+        "appointment_id": "56b2fa03-3bb6-4edb-8ae2-81582011507a",
+        "doctor_id": "0064654a-4235-4369-9e78-86e8585b3fa6",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3a620445-9971-4f00-9b3b-827842acb692",
+        "email": "Devonte86@hotmail.com",
+        "firstName": "Leilani",
+        "lastName": "Von",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44836925",
+        "tenantId": null
+      },
+      {
+        "reference": "2c21d600-5cc2-4f3c-b7dd-4bf74b83825d",
+        "email": "Dorris17@hotmail.com",
+        "firstName": "Evangeline",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1070.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "25c01bc3-0b05-4adc-b788-74faaf9e5508",
+        "email": "Sonia21@hotmail.com",
+        "firstName": "Lenny",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56012054",
+        "tenantId": null
+      },
+      {
+        "reference": "a82aa4f6-0985-4209-9b68-38914cc207f6",
+        "email": "Kaia_Gusikowski@hotmail.com",
+        "firstName": "Hudson",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71420655",
+        "tenantId": null
+      },
+      {
+        "reference": "75112fce-2fe5-41ad-9d85-f1bf2bb3a664",
+        "email": "Alexys_Streich@yahoo.com",
+        "firstName": "Addie",
+        "lastName": "Halvorson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/186.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
